@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Search | MobileNet</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css " />
+    <script
+      src="https://kit.fontawesome.com/b229c8b91a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Image Search</h1>
+      <form>
+        <label for="image-upload" class="custom-image-upload">
+          <i class="fas fa-caret-square-up"></i>
+          <span class="upload-text"> Upload Image</span>
+        </label>
+        <input
+          id="image-upload"
+          type="file"
+          class="input-field"
+          name="input"
+          accept="image/*"
+        />
+        <img src="" id="img-field" />
+        <button type="submit" class="submit-btn hidden">
+          Submit
+        </button>
+      </form>
+      <div class="result-container hidden">
+        <h2 id="image-type"></h2>
+        <span class="conf-title"></span>
+        <span class="confidence"></span>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <script src="app.js"></script>
+</html>
