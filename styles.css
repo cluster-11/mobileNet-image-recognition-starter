@@ -1,6 +1,5 @@
 body {
   font-family: "Acme", sans-serif;
-  width: 500px;
   margin: 0 auto;
   text-align: center;
 }
@@ -28,6 +27,8 @@ input[type="file"] {
 #img-field {
   display: block;
   width: 350px;
+  max-height: 65vh;
+
   border-radius: 2%;
   margin: 0 auto;
   margin-top: 5vh;
@@ -67,4 +68,10 @@ input[type="file"] {
 
 .confidence:hover {
   border-bottom-width: 5px;
+}
+
+@media only screen and (max-width: 575.98px) {
+  #img-field {
+    width: 80vw;
+  }
 }
