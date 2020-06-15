@@ -1,5 +1,5 @@
-## Image Search MobileNet
+## Image Recognition MobileNet
 
-**Image Search/Recognition Application created using MobileNet model**
+**Image Recognition Application created using MobileNet model**
 
 **This application uses ML5 library to access MobileNet model**
