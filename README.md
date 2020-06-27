@@ -1,5 +1,5 @@
-## Image Recognition MobileNet
+## Image Recognition Starter
 
-**Image Recognition Application created using MobileNet model**
-
-**This application uses ML5 library to access MobileNet model**
+- uses `mobileNet` model
+- helpful comments
+- you can get started right away
