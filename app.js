@@ -11,7 +11,7 @@ let modifiedImg;
 let createImgCapture;
 
 let mobileNet = ml5.imageClassifier("MobileNet", () => {
-  //do something if the model is ready
+  //do something when the model is ready
 });
 
 form.addEventListener("change", handleImageInput, false);
@@ -42,7 +42,6 @@ function handleImageInput(e) {
   uploadText.innerText = "Upload Another Image";
   confidenceText.textContent = "";
   //chrome doesn't allow direct image url capture from the client.
-  //we used an workaround
   img.src = window.URL.createObjectURL(e.target.files[0]);
 }
 
