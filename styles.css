@@ -24,7 +24,7 @@ input[type="file"] {
   display: none;
 }
 
-#img-field {
+.img-field {
   display: block;
   width: 350px;
   max-height: 65vh;
@@ -74,11 +74,15 @@ input[type="file"] {
   width: 35px;
   position: absolute;
   margin: 0 auto;
-  bottom: 5vh;
+  top: 3vh;
+  right: 5vw;
 }
 
 @media only screen and (max-width: 575.98px) {
-  #img-field {
+  .img-field {
     width: 80vw;
+  }
+  .github-link {
+    right: 2vw;
   }
 }
