@@ -70,6 +70,13 @@ input[type="file"] {
   border-bottom-width: 5px;
 }
 
+.github-link {
+  width: 35px;
+  position: absolute;
+  margin: 0 auto;
+  bottom: 5vh;
+}
+
 @media only screen and (max-width: 575.98px) {
   #img-field {
     width: 80vw;
