@@ -1,4 +1,4 @@
-## Image Recognition Starter
+## MobileNet Image Recognition Starter
 
 - uses `mobileNet` model
 - helpful comments
